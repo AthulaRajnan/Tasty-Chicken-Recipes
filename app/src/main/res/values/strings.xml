@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tasty Chicken Recipes</string>
+    <string name="search_recipes">Search Recipes…</string>
+    <string name="categories">Categories</string>
+    <string name="todo">TODO</string>
+
+
+    <!-- Recipe Header Names-->
+    <string name="chicken_soup_recipes">Chicken Soup</string>
+    <string name="chicken_salad_recipes">Chicken Salad</string>
+    <string name="chicken_legs_recipes">Chicken Legs</string>
+    <string name="chicken_breasts_recipes">Chicken Breasts</string>
+    <string name="fried_chicken_recipes">Fried Chicken</string>
+    <string name="whole_chicken_recipes">Whole Chicken</string>
+    <string name="bbq_grilled_chicken_recipes">BBQ and Grilled Chicken</string>
+    <string name="chicken_stir_fry_recipes">Chicken Stir-Fry</string>
+    <string name="baked_roasted_chicken_recipes">Baked and Roasted Chicken</string>
+    <string name="chicken_sausage_recipes">Chicken Sausage</string>
+
+    <!-- Chicken Soup Recipe Headers -->
+    <string name="chicken_taco_soup">Chicken Taco Soup</string>
+
+    <!-- Recipe View-->
+    <string name="ingredients">INGREDIENTS</string>
+    <string name="instructions">INSTRUCTIONS</string>
+    <string name="nutrition_facts">NUTRITION FACTS</string>
+</resources>
