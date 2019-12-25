@@ -6,6 +6,7 @@
 
 
     <!-- Recipe Header Names-->
+	<string name="turkey_recipes">Turkey Recipes</string>
     <string name="chicken_soup_recipes">Chicken Soup</string>
     <string name="chicken_salad_recipes">Chicken Salad</string>
     <string name="chicken_legs_recipes">Chicken Legs</string>
@@ -18,7 +19,25 @@
     <string name="chicken_sausage_recipes">Chicken Sausage</string>
 
     <!-- Chicken Soup Recipe Headers -->
+	<string name="chicken_noodle_soup">Chicken Noodle Soup</string>
+	<string name="noodle_serve">Servings: 6 Persons</string>
+	<string name="noodle_total_time"> Total Time: 1 Hour</string>
+	
+	<string name="lemon_chicken_orzo_soup">Lemon Chicken Orzo Soup</string>
+	<string name="lemon_serve">Servings: 12 Persons</string>
+	<string name="lemon_total_time"> Total Time: 1 Hour</string>
+	
+	<string name="spicy_chicken_soup">Spicy Chicken Soup</string>
+	<string name="spicy_serve">Servings: 8 Persons</string>
+	<string name="spicy_total_time"> Total Time: 30 Minutes</string>
+	
     <string name="chicken_taco_soup">Chicken Taco Soup</string>
+	<string name="taco_serve">Servings: 8 Persons</string>
+	<string name="taco_total_time"> Total Time: 7 Hours</string>
+	
+	<string name="chicken_tortilla_soup">Chicken Tortilla Soup</string>
+	<string name="tortilla_serve">Servings: 4 Persons</string>
+	<string name="tortilla_total_time"> Total Time: 35 Minutes</string>
 
     <!-- Recipe View-->
     <string name="ingredients">INGREDIENTS</string>
