@@ -6,7 +6,7 @@
 
 
     <!-- Recipe Header Names-->
-	<string name="turkey_recipes">Turkey Recipes</string>
+    <string name="turkey_recipes">Turkey Recipes</string>
     <string name="chicken_soup_recipes">Chicken Soup</string>
     <string name="chicken_salad_recipes">Chicken Salad</string>
     <string name="chicken_legs_recipes">Chicken Legs</string>
@@ -18,27 +18,52 @@
     <string name="baked_roasted_chicken_recipes">Baked and Roasted Chicken</string>
     <string name="chicken_sausage_recipes">Chicken Sausage</string>
 
-    <!-- Chicken Soup Recipe Headers -->
-	<string name="chicken_noodle_soup">Chicken Noodle Soup</string>
-	<string name="noodle_serve">Servings: 6 Persons</string>
-	<string name="noodle_total_time"> Total Time: 1 Hour</string>
-	
-	<string name="lemon_chicken_orzo_soup">Lemon Chicken Orzo Soup</string>
-	<string name="lemon_serve">Servings: 12 Persons</string>
-	<string name="lemon_total_time"> Total Time: 1 Hour</string>
-	
-	<string name="spicy_chicken_soup">Spicy Chicken Soup</string>
-	<string name="spicy_serve">Servings: 8 Persons</string>
-	<string name="spicy_total_time"> Total Time: 30 Minutes</string>
-	
-    <string name="chicken_taco_soup">Chicken Taco Soup</string>
-	<string name="taco_serve">Servings: 8 Persons</string>
-	<string name="taco_total_time"> Total Time: 7 Hours</string>
-	
-	<string name="chicken_tortilla_soup">Chicken Tortilla Soup</string>
-	<string name="tortilla_serve">Servings: 4 Persons</string>
-	<string name="tortilla_total_time"> Total Time: 35 Minutes</string>
+    <!-- Chicken Soup Recipes Headers -->
+    <string name="chicken_noodle_soup">Chicken Noodle Soup</string>
+    <string name="noodle_serve">Servings: 6 Persons</string>
+    <string name="noodle_total_time"> Total Time: 1 Hour</string>
 
+    <string name="lemon_chicken_orzo_soup">Lemon Chicken Orzo Soup</string>
+    <string name="lemon_serve">Servings: 12 Persons</string>
+    <string name="lemon_total_time"> Total Time: 1 Hour</string>
+
+    <string name="spicy_chicken_soup">Spicy Chicken Soup</string>
+    <string name="spicy_serve">Servings: 8 Persons</string>
+    <string name="spicy_total_time"> Total Time: 30 Minutes</string>
+
+    <string name="chicken_taco_soup">Chicken Taco Soup</string>
+    <string name="taco_serve">Servings: 8 Persons</string>
+    <string name="taco_total_time"> Total Time: 7 Hours</string>
+
+    <string name="chicken_tortilla_soup">Chicken Tortilla Soup</string>
+    <string name="tortilla_serve">Servings: 4 Persons</string>
+    <string name="tortilla_total_time"> Total Time: 35 Minutes</string>
+	
+	<!-- Turkey Recipes Headers -->
+	<string name="delicious_turkey_burgers">Delicious Turkey Burgers</string>
+    <string name="turkey_burgers_serve">Servings: 12 Persons</string>
+    <string name="turkey_burgers_total_time"> Total Time: 15 Minutes</string>
+
+    <string name="turkey_and_quinoa_meatloaf">Turkey And Quinoa Meatloaf</string>
+    <string name="meatlof_serve">Servings: 5 Persons</string>
+    <string name="meatlof_total_time"> Total Time: 50 Minutes</string>
+
+    <string name="simple_turkey_chilli">Simple Turkey Chilli</string>
+    <string name="turkey_chilli_serve">Servings: 8 Persons</string>
+    <string name="turkey_chilli_total_time"> Total Time: 45 Minutes</string>
+
+    <string name="rosemary_roasted_turkey">Rosemary Roasted Turkey</string>
+    <string name="rosemary_roasted_serve">Servings: 16 Persons</string>
+    <string name="rosemary_roasted_total_time"> Total Time: 4 Hours</string>
+
+    <string name="perfect_turkey">Perfect Turkey</string>
+    <string name="perfect_turkey_serve">Servings: 24 Persons</string>
+    <string name="perfect_turkey_total_time"> Total Time: 4 Hours</string>
+	
+	<string name="homestyle_turkey">Homestyle Turkey</string>
+    <string name="homestyle_turkey_serve">Servings: 16 Persons</string>
+    <string name="homestyle_turkey_total_time"> Total Time: 5 Hours</string>
+	
     <!-- Recipe View-->
     <string name="ingredients">INGREDIENTS</string>
     <string name="instructions">INSTRUCTIONS</string>

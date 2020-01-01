@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorPrimary"
+tools:context=".recipeshome.TurkeyRecipes">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/turkey_recipes_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/icons_left"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/turkey_recipes"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableEnd="@drawable/ic_search"
+            android:layout_marginEnd="10dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorWhite"/>
+
+    </android.support.v7.widget.CardView>
+
+    <ScrollView
+        android:layout_below="@id/turkey_recipes_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/turkey_recipe_1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/delicious_turkey_burgers" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/delicious_turkey_burgers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/delicious_turkey_burgers"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/noodle_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/delicious_turkey_burgers"
+                        android:text="@string/turkey_burgers_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/noodle_serve"
+                        android:text="@string/turkey_burgers_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/chicken_soup_recipe_2"
+                android:layout_below="@id/chicken_soup_recipe_1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/lemon_chicken_orzo_soup" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/lemon_chicken_orzo_soup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/lemon_chicken_orzo_soup"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/lemon_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/lemon_chicken_orzo_soup"
+                        android:text="@string/lemon_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/lemon_serve"
+                        android:text="@string/lemon_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/chicken_soup_recipe_3"
+                android:layout_below="@id/chicken_soup_recipe_2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/chicken_tortilla_soup" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/chicken_tortilla_soup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/chicken_tortilla_soup"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/tortilla_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/chicken_tortilla_soup"
+                        android:text="@string/tortilla_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tortilla_serve"
+                        android:text="@string/tortilla_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/chicken_soup_recipe_4"
+                android:layout_below="@id/chicken_soup_recipe_3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/spicy_chicken_soup"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/spicy_chicken_soup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/spicy_chicken_soup"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/spicy_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/spicy_chicken_soup"
+                        android:text="@string/tortilla_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/spicy_serve"
+                        android:text="@string/spicy_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/chicken_soup_recipe_5"
+                android:layout_below="@id/chicken_soup_recipe_4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/chicken_taco_soup"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/chicken_taco_soup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/chicken_taco_soup"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/taco_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/chicken_taco_soup"
+                        android:text="@string/taco_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/taco_serve"
+                        android:text="@string/taco_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.view.View;
 
+import com.athulawalpola.tastychickenrecipes.recipeshome.TurkeyRecipes;
 import com.athulawalpola.tastychickenrecipes.recipeshome.BBQGrilledChickenRecipes;
 import com.athulawalpola.tastychickenrecipes.recipeshome.BakedRoastedChickenRecipes;
 import com.athulawalpola.tastychickenrecipes.recipeshome.ChickenBreastsRecipes;
@@ -19,12 +20,20 @@ import com.athulawalpola.tastychickenrecipes.recipeshome.WholeChickenRecipes;
 
 public class MainActivity extends AppCompatActivity {
 
-    CardView cardView_1, cardView_2, cardView_3, cardView_4, cardView_5, cardView_6, cardView_7, cardView_8, cardView_9, cardView_10;
+    CardView cardView_0, cardView_1, cardView_2, cardView_3, cardView_4, cardView_5, cardView_6, cardView_7, cardView_8, cardView_9, cardView_10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        cardView_0 = findViewById(R.id.recipe_0);
+        cardView_0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openTurkeyRecipes();
+            }
+        });
 
         cardView_1 = findViewById(R.id.recipe_1);
         cardView_1.setOnClickListener(new View.OnClickListener() {
@@ -106,6 +115,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void openTurkeyRecipes() {
+        Intent intent = new Intent(this, TurkeyRecipes.class);
+        startActivity(intent);
     }
 
     public void openChickenSoupRecipes() {

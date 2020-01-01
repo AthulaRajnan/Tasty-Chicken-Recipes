@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".souprecipes.SpicyChickenSoup"></activity>
+        <activity android:name=".recipeshome.TurkeyRecipes"></activity>
+        <activity android:name=".souprecipes.SpicyChickenSoup" />
         <activity android:name=".souprecipes.ChickenTortillaSoup" />
         <activity android:name=".souprecipes.LemonChickenOrzoSoup" />
         <activity android:name=".souprecipes.ChickenNoodleSoup" />
