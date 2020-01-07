@@ -23,18 +23,31 @@
             android:textStyle="bold"
             android:gravity="center"/>
 
-        <TextView
+        <!--<TextView-->
+            <!--android:id="@+id/search_bar"-->
+            <!--android:layout_below="@+id/title"-->
+            <!--android:background="@drawable/ovel_banner"-->
+            <!--android:text="@string/search_recipes"-->
+            <!--android:textColor="@color/colorWhite"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:padding="10dp"/>-->
+        <android.support.v7.widget.SearchView
             android:id="@+id/search_bar"
-            android:layout_below="@+id/title"
+            android:layout_below="@id/title"
             android:background="@drawable/ovel_banner"
-            android:text="@string/search_recipes"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            app:queryHint="Search Recipes..."
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:gravity="center_vertical"
-            android:padding="10dp"/>
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+        </android.support.v7.widget.SearchView>
 
         <TextView
             android:id="@+id/slider"
@@ -357,12 +370,12 @@
                     android:layout_width="234dp"
                     android:layout_height="94dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/chicken_sausage" />
+                    android:src="@drawable/chicken_stew" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/chicken_sausage_recipes"
+                    android:text="@string/chicken_stew_recipes"
                     android:gravity="center_horizontal"
                     android:layout_marginTop="95dp"
                     android:textColor="@color/colorWhite"

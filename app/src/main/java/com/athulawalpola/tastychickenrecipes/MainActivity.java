@@ -12,7 +12,7 @@ import com.athulawalpola.tastychickenrecipes.recipeshome.BakedRoastedChickenReci
 import com.athulawalpola.tastychickenrecipes.recipeshome.ChickenBreastsRecipes;
 import com.athulawalpola.tastychickenrecipes.recipeshome.ChickenLegsRecipes;
 import com.athulawalpola.tastychickenrecipes.recipeshome.ChickenSaladRecipes;
-import com.athulawalpola.tastychickenrecipes.recipeshome.ChickenSausageRecipes;
+import com.athulawalpola.tastychickenrecipes.recipeshome.ChickenStewRecipes;
 import com.athulawalpola.tastychickenrecipes.recipeshome.ChickenStirFryRecipes;
 import com.athulawalpola.tastychickenrecipes.recipeshome.FriedChickenRecipes;
 import com.athulawalpola.tastychickenrecipes.recipeshome.ChickenSoupRecipes;
@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openChickenSausageRecipes() {
-        Intent intent = new Intent(this, ChickenSausageRecipes.class);
+        Intent intent = new Intent(this, ChickenStewRecipes.class);
         startActivity(intent);
     }
 

@@ -7,20 +7,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".recipeshome.WholeChickenRecipes">
+    tools:context=".recipeshome.BBQGrilledChickenRecipes">
 
     <android.support.v7.widget.CardView
-        android:id="@+id/honey_chicken_header"
+        android:id="@+id/bbq_grilled_chicken_header"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         app:cardBackgroundColor="@color/colorPrimary"
         tools:ignore="MissingConstraints">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:drawableStart="@drawable/icons_left"
-            android:layout_marginStart="10dp"/>
+            android:id="@+id/icon_back_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/icon_back_24"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center_vertical"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -31,18 +33,23 @@
             android:textStyle="bold"
             android:textSize="25sp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:drawableEnd="@drawable/ic_search"
-            android:layout_marginEnd="10dp"
-            android:gravity="center_vertical"
-            android:textColor="@color/colorWhite"/>
-
     </android.support.v7.widget.CardView>
 
+    <android.support.v7.widget.SearchView
+        android:id="@+id/search_bar"
+        android:layout_below="@id/bbq_grilled_chicken_header"
+        android:background="@drawable/ovel_banner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:queryHint="Search Recipes..."
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+    </android.support.v7.widget.SearchView>
+
     <ScrollView
-        android:layout_below="@id/honey_chicken_header"
+        android:layout_below="@id/search_bar"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -51,61 +58,325 @@
             android:layout_height="wrap_content">
 
             <android.support.v7.widget.CardView
-                android:id="@+id/honey_chicken_recipe_1"
+                android:id="@+id/bbq_grilled_chicken_recipe_1"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@color/colorPrimaryDark"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/rosemary_ranch_chicken_kabobs" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/rosemary_ranch_chicken_kabobs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/rosemary_ranch_chicken_kabobs"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/rosemary_ranch_chicken_kabobs_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rosemary_ranch_chicken_kabobs"
+                        android:text="@string/rosemary_ranch_chicken_kabobs_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rosemary_ranch_chicken_kabobs_serve"
+                        android:text="@string/rosemary_ranch_chicken_kabobs_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/honey_chicken_recipe_2"
-                android:layout_below="@id/honey_chicken_recipe_1"
+                android:id="@+id/bbq_grilled_chicken_recipe_2"
+                android:layout_below="@id/bbq_grilled_chicken_recipe_1"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@color/colorPrimaryDark"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/unbelievable_chicken" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/unbelievable_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/unbelievable_chicken"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/unbelievable_chicken_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/unbelievable_chicken"
+                        android:text="@string/unbelievable_chicken_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/unbelievable_chicken_serve"
+                        android:text="@string/unbelievable_chicken_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/honey_chicken_recipe_3"
-                android:layout_below="@id/honey_chicken_recipe_2"
+                android:id="@+id/bbq_grilled_chicken_recipe_3"
+                android:layout_below="@id/bbq_grilled_chicken_recipe_2"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@color/colorPrimaryDark"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/honey_mustard_grilled_chicken" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/honey_mustard_grilled_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/honey_mustard_grilled_chicken"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/honey_mustard_grilled_chicken_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/honey_mustard_grilled_chicken"
+                        android:text="@string/honey_mustard_grilled_chicken_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/honey_mustard_grilled_chicken_serve"
+                        android:text="@string/honey_mustard_grilled_chicken_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/honey_chicken_recipe_4"
-                android:layout_below="@id/honey_chicken_recipe_3"
+                android:id="@+id/bbq_grilled_chicken_recipe_4"
+                android:layout_below="@id/bbq_grilled_chicken_recipe_3"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@color/colorPrimaryDark"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/chicken_tikka_masala" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/chicken_tikka_masala"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/chicken_tikka_masala"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/chicken_tikka_masala_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/chicken_tikka_masala"
+                        android:text="@string/chicken_tikka_masala_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/chicken_tikka_masala_serve"
+                        android:text="@string/chicken_tikka_masala_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/honey_chicken_recipe_5"
-                android:layout_below="@id/honey_chicken_recipe_4"
+                android:id="@+id/bbq_grilled_chicken_recipe_5"
+                android:layout_below="@id/bbq_grilled_chicken_recipe_4"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@color/colorPrimaryDark"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/yummy_honey_chicken_kabobs" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/yummy_honey_chicken_kabobs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/yummy_honey_chicken_kabobs"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/yummy_honey_chicken_kabobs_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/yummy_honey_chicken_kabobs"
+                        android:text="@string/yummy_honey_chicken_kabobs_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/yummy_honey_chicken_kabobs_serve"
+                        android:text="@string/yummy_honey_chicken_kabobs_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bbq_grilled_chicken_recipe_6"
+                android:layout_below="@id/bbq_grilled_chicken_recipe_5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/key_west_chicken" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/key_west_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/key_west_chicken"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/key_west_chicken_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/key_west_chicken"
+                        android:text="@string/key_west_chicken_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/key_west_chicken_serve"
+                        android:text="@string/key_west_chicken_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
 
             </android.support.v7.widget.CardView>
 

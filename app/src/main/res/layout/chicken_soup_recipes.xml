@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary">
+    android:background="@color/colorPrimary"
+    tools:context=".recipeshome.ChickenSoupRecipes">
 
     <android.support.v7.widget.CardView
         android:id="@+id/honey_chicken_header"
@@ -15,10 +16,12 @@
         tools:ignore="MissingConstraints">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:drawableStart="@drawable/icons_left"
-            android:layout_marginStart="10dp"/>
+            android:id="@+id/icon_back_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/icon_back_24"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center_vertical"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -29,18 +32,23 @@
             android:textStyle="bold"
             android:textSize="25sp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:drawableEnd="@drawable/ic_search"
-            android:layout_marginEnd="10dp"
-            android:gravity="center_vertical"
-            android:textColor="@color/colorWhite"/>
-
     </android.support.v7.widget.CardView>
 
-    <ScrollView
+    <android.support.v7.widget.SearchView
+        android:id="@+id/search_bar"
         android:layout_below="@id/honey_chicken_header"
+        android:background="@drawable/ovel_banner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:queryHint="Search Recipes..."
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+    </android.support.v7.widget.SearchView>
+
+    <ScrollView
+        android:layout_below="@id/search_bar"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 

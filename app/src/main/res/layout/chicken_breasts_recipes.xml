@@ -10,17 +10,19 @@
     tools:context=".recipeshome.ChickenLegsRecipes">
 
     <android.support.v7.widget.CardView
-        android:id="@+id/honey_chicken_header"
+        android:id="@+id/chicken_breasts_header"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         app:cardBackgroundColor="@color/colorPrimary"
         tools:ignore="MissingConstraints">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:drawableStart="@drawable/icons_left"
-            android:layout_marginStart="10dp"/>
+            android:id="@+id/icon_back_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/icon_back_24"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center_vertical"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -31,18 +33,23 @@
             android:textStyle="bold"
             android:textSize="25sp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:drawableEnd="@drawable/ic_search"
-            android:layout_marginEnd="10dp"
-            android:gravity="center_vertical"
-            android:textColor="@color/colorWhite"/>
-
     </android.support.v7.widget.CardView>
 
+    <android.support.v7.widget.SearchView
+        android:id="@+id/search_bar"
+        android:layout_below="@id/chicken_breasts_header"
+        android:background="@drawable/ovel_banner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:queryHint="Search Recipes..."
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+    </android.support.v7.widget.SearchView>
+
     <ScrollView
-        android:layout_below="@id/honey_chicken_header"
+        android:layout_below="@id/search_bar"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -51,61 +58,379 @@
             android:layout_height="wrap_content">
 
             <android.support.v7.widget.CardView
-                android:id="@+id/honey_chicken_recipe_1"
+                android:id="@+id/chicken_breasts_recipe_1"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@color/colorPrimaryDark"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/garlic_chicken" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/garlic_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/garlic_chicken"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/garlic_chicken_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/garlic_chicken"
+                        android:text="@string/garlic_chicken_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/garlic_chicken_serve"
+                        android:text="@string/garlic_chicken_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/honey_chicken_recipe_2"
-                android:layout_below="@id/honey_chicken_recipe_1"
+                android:id="@+id/chicken_breasts_recipe_2"
+                android:layout_below="@id/chicken_breasts_recipe_1"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@color/colorPrimaryDark"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/spicy_garlic_lime_chicken" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/spicy_garlic_lime_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/spicy_garlic_lime_chicken"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/spicy_garlic_lime_chicken_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/spicy_garlic_lime_chicken"
+                        android:text="@string/spicy_garlic_lime_chicken_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/spicy_garlic_lime_chicken_serve"
+                        android:text="@string/spicy_garlic_lime_chicken_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/honey_chicken_recipe_3"
-                android:layout_below="@id/honey_chicken_recipe_2"
+                android:id="@+id/chicken_breasts_recipe_3"
+                android:layout_below="@id/chicken_breasts_recipe_2"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@color/colorPrimaryDark"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
+
+                <ImageView
+                android:layout_width="75dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/garlic_cheddar_chicken" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/garlic_cheddar_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/garlic_cheddar_chicken"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/garlic_cheddar_chicken_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/garlic_cheddar_chicken"
+                        android:text="@string/garlic_cheddar_chicken_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/garlic_cheddar_chicken_serve"
+                        android:text="@string/garlic_cheddar_chicken_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/honey_chicken_recipe_4"
-                android:layout_below="@id/honey_chicken_recipe_3"
+                android:id="@+id/chicken_breasts_recipe_4"
+                android:layout_below="@id/chicken_breasts_recipe_3"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@color/colorPrimaryDark"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/chicken_marsala" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/chicken_marsala"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/chicken_marsala"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/chicken_marsala_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/chicken_marsala"
+                        android:text="@string/chicken_marsala_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/chicken_marsala_serve"
+                        android:text="@string/chicken_marsala_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/honey_chicken_recipe_5"
-                android:layout_below="@id/honey_chicken_recipe_4"
+                android:id="@+id/chicken_breasts_recipe_5"
+                android:layout_below="@id/chicken_breasts_recipe_4"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@color/colorPrimaryDark"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/salsa_chicken" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/salsa_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/salsa_chicken"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/salsa_chicken_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/salsa_chicken"
+                        android:text="@string/chicken_marsala_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/salsa_chicken_serve"
+                        android:text="@string/salsa_chicken_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/chicken_breasts_recipe_6"
+                android:layout_below="@id/chicken_breasts_recipe_5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/braised_balsamic_chicken" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/braised_balsamic_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/braised_balsamic_chicken"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/braised_balsamic_chicken_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/braised_balsamic_chicken"
+                        android:text="@string/chicken_marsala_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/braised_balsamic_chicken_serve"
+                        android:text="@string/braised_balsamic_chicken_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/chicken_breasts_recipe_7"
+                android:layout_below="@id/chicken_breasts_recipe_6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/famous_butter_chicken" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp">
+
+                    <TextView
+                        android:id="@+id/famous_butter_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/famous_butter_chicken"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:id="@+id/famous_butter_chicken_serve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/famous_butter_chicken"
+                        android:text="@string/chicken_marsala_serve"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="20dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/famous_butter_chicken_serve"
+                        android:text="@string/famous_butter_chicken_total_time"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
 
             </android.support.v7.widget.CardView>
 

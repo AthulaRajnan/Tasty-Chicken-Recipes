@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.view.View;
+import android.widget.TextView;
 
 import com.athulawalpola.tastychickenrecipes.R;
 import com.athulawalpola.tastychickenrecipes.souprecipes.ChickenNoodleSoup;
@@ -16,11 +17,20 @@ import com.athulawalpola.tastychickenrecipes.souprecipes.SpicyChickenSoup;
 public class ChickenSoupRecipes extends AppCompatActivity {
 
     CardView cardView_1, cardView_2, cardView_3, cardView_4, cardView_5;
+    TextView textView_1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.chicken_soup_recipes);
+
+        textView_1 = findViewById(R.id.icon_back_24);
+        textView_1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         cardView_1 = findViewById(R.id.chicken_soup_recipe_1);
         cardView_1.setOnClickListener(new View.OnClickListener() {

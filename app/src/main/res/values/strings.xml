@@ -16,9 +16,10 @@
     <string name="bbq_grilled_chicken_recipes">BBQ and Grilled Chicken</string>
     <string name="chicken_stir_fry_recipes">Chicken Stir-Fry</string>
     <string name="baked_roasted_chicken_recipes">Baked and Roasted Chicken</string>
-    <string name="chicken_sausage_recipes">Chicken Sausage</string>
+    <string name="chicken_stew_recipes">Chicken Stew</string>
 
-    <!-- Chicken Soup Recipes Headers -->
+
+    <!-- Chicken Soup Recipes -->
     <string name="chicken_noodle_soup">Chicken Noodle Soup</string>
     <string name="noodle_serve">Servings: 6 Persons</string>
     <string name="noodle_total_time"> Total Time: 1 Hour</string>
@@ -38,9 +39,10 @@
     <string name="chicken_tortilla_soup">Chicken Tortilla Soup</string>
     <string name="tortilla_serve">Servings: 4 Persons</string>
     <string name="tortilla_total_time"> Total Time: 35 Minutes</string>
-	
-	<!-- Turkey Recipes Headers -->
-	<string name="delicious_turkey_burgers">Delicious Turkey Burgers</string>
+
+
+    <!-- Turkey Recipes -->
+    <string name="delicious_turkey_burgers">Delicious Turkey Burgers</string>
     <string name="turkey_burgers_serve">Servings: 12 Persons</string>
     <string name="turkey_burgers_total_time"> Total Time: 15 Minutes</string>
 
@@ -59,11 +61,225 @@
     <string name="perfect_turkey">Perfect Turkey</string>
     <string name="perfect_turkey_serve">Servings: 24 Persons</string>
     <string name="perfect_turkey_total_time"> Total Time: 4 Hours</string>
-	
-	<string name="homestyle_turkey">Homestyle Turkey</string>
+
+    <string name="homestyle_turkey">Homestyle Turkey</string>
     <string name="homestyle_turkey_serve">Servings: 16 Persons</string>
     <string name="homestyle_turkey_total_time"> Total Time: 5 Hours</string>
-	
+
+
+    <!-- Chicken Salad Recipes -->
+    <string name="fruity_curry_chicken_salad">Fruity Curry Chicken Salad</string>
+    <string name="fruity_chicken_salad_serve">Servings: 8 Persons</string>
+    <string name="fruity_salad_total_time"> Total Time: 45 Minutes</string>
+
+    <string name="special_chicken_salad">Special Chicken Salad</string>
+    <string name="special_chicken_salad_serve">Servings: 10 Persons</string>
+    <string name="special_chicken_salad_total_time"> Total Time: 20 Minutes</string>
+
+    <string name="sesame_pasta_chicken_salad">Sesame Pasta Chicken Salad</string>
+    <string name="sesame_pasta_serve">Servings: 10 Persons</string>
+    <string name="sesame_pasta_total_time"> Total Time: 30 Minutes</string>
+
+    <string name="holiday_chicken_salad">Holiday Chicken Salad</string>
+    <string name="holiday_salad_serve">Servings: 12 Persons</string>
+    <string name="holiday_salad_total_time"> Total Time: 15 Minutes</string>
+
+    <string name="chicken_fiesta_salad">Chicken Fiesta Salad</string>
+    <string name="fiesta_salad_serve">Servings: 4 Persons</string>
+    <string name="fiesta_salad_total_time"> Total Time: 40 Minutes</string>
+
+
+    <!-- Chicken Legs Recipes -->
+    <string name="spicy_hot_chicken_legs">Spicy Hot Chicken Legs</string>
+    <string name="spicy_hot_chicken_legs_serve">Servings: 6 Persons</string>
+    <string name="spicy_hot_chicken_legs_total_time"> Total Time: 3 Hours 5 Minutes</string>
+
+    <string name="mediterranean_lemon_chicken">Mediterranean Lemon Chicken</string>
+    <string name="mediterranean_lemon_chicken_serve">Servings: 6 Persons</string>
+    <string name="mediterranean_lemon_chicken_total_time"> Total Time: 1 Hour 5 Minutes</string>
+
+    <string name="parmesan_chicken">Parmesan Chicken</string>
+    <string name="parmesan_chicken_serve">Servings: 6 Persons</string>
+    <string name="parmesan_chicken_total_time"> Total Time: 1 Hour</string>
+
+    <string name="tater_crisp_chicken">Tater Crisp Chicken</string>
+    <string name="tater_crisp_chicken_serve">Servings: 10 Persons</string>
+    <string name="tater_crisp_chicken_total_time"> Total Time: 1 Hour 20 Minutes</string>
+
+    <string name="oven_bbq_chicken_drumsticks">Oven BBQ Chicken Drumsticks</string>
+    <string name="oven_bbq_chicken_drumsticks_serve">Servings: 3 Persons</string>
+    <string name="oven_bbq_chicken_drumsticks_total_time"> Total Time: 1 Hour 10 Minutes</string>
+
+
+    <!-- Chicken Breasts Recipes -->
+    <string name="garlic_chicken">Garlic Chicken</string>
+    <string name="garlic_chicken_serve">Servings: 4 Persons</string>
+    <string name="garlic_chicken_total_time"> Total Time: 55 Minutes</string>
+
+    <string name="spicy_garlic_lime_chicken">Spicy Garlic Lime Chicken</string>
+    <string name="spicy_garlic_lime_chicken_serve">Servings: 4 Persons</string>
+    <string name="spicy_garlic_lime_chicken_total_time"> Total Time: 25 Minutes</string>
+
+    <string name="garlic_cheddar_chicken">Garlic Cheddar Chicken</string>
+    <string name="garlic_cheddar_chicken_serve">Servings: 8 Persons</string>
+    <string name="garlic_cheddar_chicken_total_time"> Total Time: 55 Minutes</string>
+
+    <string name="chicken_marsala">Chicken Marsala</string>
+    <string name="chicken_marsala_serve">Servings: 4 Persons</string>
+    <string name="chicken_marsala_total_time"> Total Time: 30 Minutes</string>
+
+    <string name="salsa_chicken">Salsa Chicken</string>
+    <string name="salsa_chicken_serve">Servings: 4 Persons</string>
+    <string name="salsa_chicken_total_time"> Total Time: 45 Minutes</string>
+
+    <string name="braised_balsamic_chicken">Braised Balsamic Chicken</string>
+    <string name="braised_balsamic_chicken_serve">Servings: 6 Persons</string>
+    <string name="braised_balsamic_chicken_total_time"> Total Time: 35 Minutes</string>
+
+    <string name="famous_butter_chicken">Famous Butter Chicken</string>
+    <string name="famous_butter_chicken_serve">Servings: 4 Persons</string>
+    <string name="famous_butter_chicken_total_time"> Total Time: 55 Minutes</string>
+
+
+    <!-- Fried Chicken Recipes -->
+    <string name="chicken_fried_chicken">Chicken Fried Chicken</string>
+    <string name="chicken_fried_chicken_serve">Servings: 6 Persons</string>
+    <string name="chicken_fried_chicken_total_time"> Total Time: 45 Minutes</string>
+
+    <string name="garlic_fried_chicken">Garlic Fried Chicken</string>
+    <string name="garlic_fried_chicken_serve">Servings: 4 Persons</string>
+    <string name="garlic_fried_chicken_total_time"> Total Time: 35 Minutes</string>
+
+    <string name="oven_fried_chicken">Oven Fried Chicken</string>
+    <string name="oven_fried_chicken_serve">Servings: 10 Persons</string>
+    <string name="oven_fried_chicken_total_time"> Total Time: 1 Hour</string>
+
+    <string name="triple_dipped_fried_chicken">Triple Dipped Fried Chicken</string>
+    <string name="triple_dipped_fried_chicken_serve">Servings: 6 Persons</string>
+    <string name="triple_dipped_fried_chicken_total_time"> Total Time: 50 Minutes</string>
+
+    <string name="crispy_fried_chicken">Crispy Fried Chicken</string>
+    <string name="crispy_fried_chicken_serve">Servings: 8 Persons</string>
+    <string name="crispy_fried_chicken_total_time"> Total Time: 45 Minutes</string>
+
+    <string name="fried_chicken_with_creamy_gravy">Fried Chicken with Creamy Gravy</string>
+    <string name="fried_chicken_with_creamy_gravy_serve">Servings: 8 Persons</string>
+    <string name="fried_chicken_with_creamy_gravy_total_time"> Total Time: 55 Minutes</string>
+
+
+    <!-- Whole Chicken Recipes -->
+    <string name="juicy_roasted_chicken">Juicy Roasted Chicken</string>
+    <string name="juicy_roasted_chicken_serve">Servings: 6 Persons</string>
+    <string name="juicy_roasted_chicken_total_time"> Total Time: 1 Hour 55 Minutes</string>
+
+    <string name="simple_whole_roasted_chicken">Simple Whole Roasted Chicken</string>
+    <string name="simple_whole_roasted_chicken_serve">Servings: 6 Persons</string>
+    <string name="simple_whole_roasted_chicken_total_time"> Total Time: 2 Days</string>
+
+    <string name="baked_slow_cooker_chicken">Baked Slow Cooker Chicken</string>
+    <string name="baked_slow_cooker_chicken_serve">Servings: 6 Persons</string>
+    <string name="baked_slow_cooker_chicken_total_time"> Total Time: 10 Hours 20 Minutes</string>
+
+    <string name="spicy_rapid_roast_chicken">Spicy Rapid Roast Chicken</string>
+    <string name="spicy_rapid_roast_chicken_serve">Servings: 8 Persons</string>
+    <string name="spicy_rapid_roast_chicken_total_time"> Total Time: 1 Hour 45 Minutes</string>
+
+    <string name="roast_chicken_with_rosemary">Roast Chicken with Rosemary</string>
+    <string name="roast_chicken_with_rosemary_serve">Servings: 6 Persons</string>
+    <string name="roast_chicken_with_rosemary_total_time"> Total Time: 2 Hours 10 Minutes</string>
+
+
+    <!-- BBQ and Grilled Chicken -->
+    <string name="rosemary_ranch_chicken_kabobs">Rosemary Ranch Chicken Kabobs</string>
+    <string name="rosemary_ranch_chicken_kabobs_serve">Servings: 6 Persons</string>
+    <string name="rosemary_ranch_chicken_kabobs_total_time"> Total Time: 1 Hour</string>
+
+    <string name="unbelievable_chicken">Unbelievable Chicken</string>
+    <string name="unbelievable_chicken_serve">Servings: 6 Persons</string>
+    <string name="unbelievable_chicken_total_time"> Total Time: 9 Hours</string>
+
+    <string name="honey_mustard_grilled_chicken">Honey Mustard Grilled Chicken</string>
+    <string name="honey_mustard_grilled_chicken_serve">Servings: 4 Persons</string>
+    <string name="honey_mustard_grilled_chicken_total_time"> Total Time: 35 Minutes</string>
+
+    <string name="chicken_tikka_masala">Chicken Tikka Masala</string>
+    <string name="chicken_tikka_masala_serve">Servings: 4 Persons</string>
+    <string name="chicken_tikka_masala_total_time"> Total Time: 2 Hours 20 Minutes</string>
+
+    <string name="yummy_honey_chicken_kabobs">Yummy Honey Chicken Kabobs</string>
+    <string name="yummy_honey_chicken_kabobs_serve">Servings: 12 Persons</string>
+    <string name="yummy_honey_chicken_kabobs_total_time"> Total Time: 2 Hours 30 Minutes</string>
+
+    <string name="key_west_chicken">Key West Chicken</string>
+    <string name="key_west_chicken_serve">Servings: 4 Persons</string>
+    <string name="key_west_chicken_total_time"> Total Time: 1 Hour</string>
+
+
+    <!-- Chicken Stir-Fry -->
+    <string name="broccoli_chicken_stirfry">Broccoli and Chicken Stir-Fry</string>
+    <string name="broccoli_chicken_stirfry_serve">Servings: 3 Persons</string>
+    <string name="broccoli_chicken_stirfry_total_time"> Total Time: 35 Minutes</string>
+
+    <string name="garlic_chicken_stirfry">Garlic Chicken Stir Fry</string>
+    <string name="garlic_chicken_stirfry_serve">Servings: 4 Persons</string>
+    <string name="garlic_chicken_stirfry_total_time"> Total Time: 30 Minutes</string>
+
+    <string name="kung_pao_chicken">Kung Pao Chicken</string>
+    <string name="kung_pao_chicken_serve">Servings: 4 Persons</string>
+    <string name="kung_pao_chicken_total_time"> Total Time: 1 Hour 30 Minutes</string>
+
+    <string name="chicken_stirfry">Chicken Stir-Fry</string>
+    <string name="chicken_stirfry_serve">Servings: 6 Persons</string>
+    <string name="chicken_stirfry_total_time"> Total Time: 1 Hour 20 Minutes</string>
+
+    <string name="caramel_chicken">Caramel Chicken</string>
+    <string name="caramel_chicken_serve">Servings: 4 Persons</string>
+    <string name="caramel_chicken_total_time"> Total Time: 40 Minutes</string>
+
+
+    <!-- Baked and Roasted Chicken -->
+    <string name="anniversary_chicken">Anniversary Chicken</string>
+    <string name="anniversary_chicken_serve">Servings: 6 Persons</string>
+    <string name="anniversary_chicken_total_time"> Total Time: 1 Hour 05 Minutes</string>
+
+    <string name="chicken_enchiladas">Chicken Enchiladas</string>
+    <string name="chicken_enchiladas_serve">Servings: 6 Persons</string>
+    <string name="chicken_enchiladas_total_time"> Total Time: 45 Minutes</string>
+
+    <string name="baked_garlic_parmesan_chicken">Baked Garlic Parmesan Chicken</string>
+    <string name="baked_garlic_parmesan_chicken_serve">Servings: 6 Persons</string>
+    <string name="baked_garlic_parmesan_chicken_total_time"> Total Time: 45 Minutes</string>
+
+    <string name="artichoke_chicken">Artichoke Chicken</string>
+    <string name="artichoke_chicken_serve">Servings: 4 Persons</string>
+    <string name="artichoke_chicken_total_time"> Total Time: 40 Minutes</string>
+
+    <string name="chicken_florentine_casserole">Chicken Florentine Casserole</string>
+    <string name="chicken_florentine_casserole_serve">Servings: 4 Persons</string>
+    <string name="chicken_florentine_casserole_total_time"> Total Time: 50 Minutes</string>
+
+
+    <!-- Chicken Stew -->
+    <string name="zydeco_stomp_gumbo">Zydeco Stomp Gumbo</string>
+    <string name="zydeco_stomp_gumbo_serve">Servings: 10 Persons</string>
+    <string name="zydeco_stomp_gumbo_total_time"> Total Time: 2 Hours</string>
+
+    <string name="chicken_pot_pie_stew">Chicken Pot Pie Stew</string>
+    <string name="chicken_pot_pie_stew_serve">Servings: 6 Persons</string>
+    <string name="chicken_pot_pie_stew_total_time"> Total Time: 6 Hours 20 Minutes</string>
+
+    <string name="jambalaya">Jambalaya</string>
+    <string name="jambalaya_serve">Servings: 6 Persons</string>
+    <string name="jambalaya_total_time"> Total Time: 1 Hour 05 Minutes</string>
+
+    <string name="gumbo_style_chicken_creole">Gumbo Style Chicken Creole</string>
+    <string name="gumbo_style_chicken_creole_serve">Servings: 6 Persons</string>
+    <string name="gumbo_style_chicken_creole_total_time"> Total Time: 1 Hour</string>
+
+    <string name="chicken_andouille_gumbo">Chicken Andouille Gumbo</string>
+    <string name="chicken_andouille_gumbo_serve">Servings: 8 Persons</string>
+    <string name="chicken_andouille_gumbo_total_time"> Total Time: 3 Hours 20 Minutes</string>
+
     <!-- Recipe View-->
     <string name="ingredients">INGREDIENTS</string>
     <string name="instructions">INSTRUCTIONS</string>
